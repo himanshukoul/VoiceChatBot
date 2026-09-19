@@ -1,13 +1,6 @@
-# import whisper
-# model = whisper.load_model("small.en")
-
-# def stt_func(fpath):
-#     result = model.transcribe(fpath)
-#     return result
-
 import requests
 
-COLAB_BASE_URL = "https://b0c527125540.ngrok-free.app/"  
+COLAB_BASE_URL = "https://a7a74b4ad52c.ngrok-free.app"  #change according to url in colab
 
 def stt_func(filepath):
     with open(filepath, "rb") as f:

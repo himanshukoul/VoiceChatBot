@@ -1,0 +1,17 @@
+dotenv
+pinecone
+protobuf
+google
+googleapis-common-protos
+grpcio
+flask
+flask_cors
+flask_socketio
+openai
+openai-whisper
+elevenlabs
+sentence_transformers
+requests
+uuid
+torch
+numpy
