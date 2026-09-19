@@ -1,7 +1,7 @@
 from sentence_transformers import SentenceTransformer
 from pinecone_config import dense_index
 
-dense_model = SentenceTransformer("intfloat/multilingual-e5-large")
+dense_model = SentenceTransformer("intfloat/multilingual-e5-large")  # byo vector provides more control, Indexes with integrated embedding do not support updating or importing with text in Pinecone
 NAMESPACE = "voice-chatbot"
 
 
